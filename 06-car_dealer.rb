@@ -1,10 +1,10 @@
-require_relative 'car'
-require_relative 'sport_car'
-require_relative 'truck'
+require_relative '03-car'
+require_relative '04-sport_car'
+require_relative '05-truck'
 
 class CarDealer
-  def self.generate_vehicle(categorie)
-    case categorie
+  def self.generate_vehicle(category)
+    case category
     when "car"
         return Car.new("Ford")
     when "sportCar"
@@ -27,7 +27,6 @@ class CarDealer
 end
 
 puts "Olá, bem vindo ao Web Motors!"
-
 puts "#{CarDealer.address}"
 
 

@@ -1,4 +1,4 @@
-require_relative 'vehicle'
+require_relative '02-vehicle'
 
 class Truck < Vehicle
   def initialize(brand)
